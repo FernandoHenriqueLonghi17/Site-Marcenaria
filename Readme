@@ -47,7 +47,7 @@ Clone o repositório:
 
 bash
 Copy
-git clone https://github.com/seu-usuario/evora-ambientes-planejados.git
+git clone https://github.com/seu-usuario/Site-Marcenaria.git
 cd evora-ambientes-planejados
 Instale as dependências:
 Se estiver usando npm:
@@ -91,7 +91,7 @@ npm lint ou yarn lint: Verifica erros de linting no código.
 
 Estrutura do Projeto
 Copy
-evora-ambientes-planejados/
+Site-Marcenaria/
 ├── public/                  # Arquivos estáticos (HTML, imagens, etc.)
 ├── src/                     # Código-fonte da aplicação
 │   ├── components/          # Componentes reutilizáveis (Navbar, Carousel, etc.)
