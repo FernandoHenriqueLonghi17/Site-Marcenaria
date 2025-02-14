@@ -1,0 +1,105 @@
+Este projeto é uma aplicação web desenvolvida para a empresa Évora Ambientes Planejados, especializada em criar ambientes planejados e personalizados. A aplicação inclui uma página inicial com um carrossel de imagens, uma barra de navegação responsiva e seções que destacam os serviços e qualidades da empresa.
+
+Tecnologias Utilizadas
+React: Biblioteca JavaScript para construção de interfaces de usuário.
+
+React Router: Para gerenciamento de rotas e navegação entre páginas.
+
+Tailwind CSS: Framework CSS para estilização rápida e responsiva.
+
+Lucide React: Biblioteca de ícones para uso na interface.
+
+TypeScript: Adiciona tipagem estática ao JavaScript para melhorar a qualidade do código.
+
+Funcionalidades
+Carrossel de Imagens:
+
+Exibe imagens em um carrossel com navegação automática e manual.
+
+Transição suave entre as imagens com efeito de fade.
+
+Indicadores de posição para navegação direta.
+
+Barra de Navegação Responsiva:
+
+Menu adaptável para dispositivos móveis e desktop.
+
+Links destacados para a rota ativa.
+
+Ícones para abrir/fechar o menu em dispositivos móveis.
+
+Página Inicial:
+
+Seção de carrossel com imagens e texto sobreposto.
+
+Seção de qualidades da empresa, com ícones e descrições.
+
+Como Rodar o Projeto
+Pré-requisitos
+Antes de começar, certifique-se de ter instalado:
+
+Node.js (versão 16 ou superior)
+
+npm ou yarn (gerenciadores de pacotes)
+
+Passos para Configuração
+Clone o repositório:
+
+bash
+Copy
+git clone https://github.com/seu-usuario/evora-ambientes-planejados.git
+cd evora-ambientes-planejados
+Instale as dependências:
+Se estiver usando npm:
+
+bash
+Copy
+npm install
+Se estiver usando yarn:
+
+bash
+Copy
+yarn install
+Configure as variáveis de ambiente (se necessário):
+
+Crie um arquivo .env na raiz do projeto e adicione as variáveis necessárias (por exemplo, chaves de API).
+
+Inicie o servidor de desenvolvimento:
+Com npm:
+
+bash
+Copy
+npm start
+Com yarn:
+
+bash
+Copy
+yarn start
+Acesse a aplicação:
+Abra o navegador e acesse:
+
+Copy
+http://localhost:3000
+Scripts Disponíveis
+npm start ou yarn start: Inicia o servidor de desenvolvimento.
+
+npm build ou yarn build: Gera uma versão otimizada para produção.
+
+npm test ou yarn test: Executa os testes automatizados.
+
+npm lint ou yarn lint: Verifica erros de linting no código.
+
+Estrutura do Projeto
+Copy
+evora-ambientes-planejados/
+├── public/                  # Arquivos estáticos (HTML, imagens, etc.)
+├── src/                     # Código-fonte da aplicação
+│   ├── components/          # Componentes reutilizáveis (Navbar, Carousel, etc.)
+│   ├── pages/               # Páginas da aplicação (Home, Contato, etc.)
+│   ├── App.tsx              # Componente principal da aplicação
+│   ├── index.tsx            # Ponto de entrada da aplicação
+│   └── styles/              # Estilos globais (se necessário)
+├── .env                     # Variáveis de ambiente
+├── package.json             # Dependências e scripts do projeto
+├── tsconfig.json            # Configuração do TypeScript
+└── README.md                # Este arquivo
